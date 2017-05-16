@@ -37,14 +37,14 @@ public class PlayerMovement : MonoBehaviour {
             Jump = true;
         }
     }
-
+/*
     void OnCollisionEnter2D(Collision2D coll)
     {
         if (coll.gameObject.tag == "Platform")
             Jump = false;
 
     }
-
+*/
     /*
         bool canJump()
         {
